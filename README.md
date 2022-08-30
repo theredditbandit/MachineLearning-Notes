@@ -21,3 +21,4 @@ dataframe2.to_csv('CSV_Formatted_DATA.csv', index = False)
 - Since we are unsure about the data in the last column of our dataset , we're dropping the column with `.drop` method.
 - Then in the next we are saving the changes made in a variable called `csvfile` which is inturn saved inside `dataframe2` 
 - In the last line we're finally converting `dataframe2` to a csv file. 
+
